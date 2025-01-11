@@ -203,7 +203,7 @@ class MFAM(torch.nn.Module):
         return x
 
 
-class BiSeNet(torch.nn.Module):
+class MBINet(torch.nn.Module):
     def __init__(self, num_classes):
         super().__init__()
         # build spatial path
